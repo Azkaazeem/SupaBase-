@@ -8,12 +8,6 @@ let sEmail = document.getElementById('s-email');
 let spassword = document.getElementById('s-password');
 let sPhoneNo = document.getElementById('s-phone-no');
 
-// console.log(regform);
-// console.log(sfullName);
-// console.log(sEmail);
-// console.log(spassword);
-// console.log(sPhoneNo);
-
 async function signUp(e) {
     e.preventDefault()
     try {
@@ -59,10 +53,6 @@ regform && regform.addEventListener("submit", signUp);
 let lSignin = document.getElementById('l-form');
 let lEmail = document.getElementById('l-email');
 let lpassword = document.getElementById('l-password');
-
-// console.log(lSignin);
-// console.log(sEmail);
-// console.log(spassword);
 
 async function SignIn(e) {
     e.preventDefault()
